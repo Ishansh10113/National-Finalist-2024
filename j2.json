@@ -1,0 +1,29 @@
+{
+    "symbols": [
+        {
+            "proName": "BITSTAMP:BTCUSD",
+            "title": "Bitcoin"
+        },
+        {
+            "proName": "BITSTAMP:ETHUSD",
+            "title": "Ethereum"
+        },
+        {
+            "description": "india",
+            "proName": "BSE:SENSEX"
+        },
+        {
+            "description": "BAJAJ AUTO",
+            "proName": "NSE:BAJAJ_AUTO"
+        },
+        {
+            "description": "BTC",
+            "proName": "BITSTAMP:BTCUSD"
+        }
+    ],
+    "showSymbolLogo": true,
+    "colorTheme": "dark",
+    "isTransparent": false,
+    "displayMode": "adaptive",
+    "locale": "in"
+}

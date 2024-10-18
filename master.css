@@ -1,0 +1,50 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+- MAIN CSS
+- FONTS
+- PLUGIN CSS
+-------------------------------------------------------------------*/
+
+/* MAIN CSS */
+@import url('bootstrap.min.css');
+@import url('skin-bootstrap.css');
+@import url('font-awesome.min.css');
+@import url('theme.css');
+@import url('responsive.css');
+@import url('animate.css');
+@import url('color.css');
+
+/* FONTS */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300,900,700italic,400italic,500,500italic,300italic);
+@import url(http://fonts.google/apis.com/css?family=Montserrat:400,700);
+@import url('../fonts/flaticon/flaticon.css');
+
+/* PLUGIN CSS */
+@import url('../assets/loader/css/loader.css');
+@import url('../assets/owl-carousel/owl.carousel.css');
+@import url('../assets/owl-carousel/owl.theme.css');
+@import url('../assets/isotope/isotope.css');
+
+/* Custom Styles */
+body {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.848), rgba(255, 255, 255, 0.7)), url('https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg'); /* Gradient over the background image */
+    background-size: cover; /* This makes the image cover the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+}
+.tradingview-widget-container {
+    width: 2000px; /* Set the desired width */
+}
+
+/* Remove margin from the container holding the Stock Heatmap */
+.stock-heatmap-container {
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding if any */
+}
+
+/* Remove margin from the tradingview-widget-container */
+.tradingview-widget-container {
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding if any */
+}
